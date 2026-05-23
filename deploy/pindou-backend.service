@@ -5,8 +5,8 @@ After=network.target
 [Service]
 Type=simple
 User=www-data
-WorkingDirectory=/opt/bead/backend
-ExecStart=/opt/bead/backend/venv/bin/python3 -m uvicorn main:app --host 127.0.0.1 --port 8001
+WorkingDirectory=/home/pindou/backend
+ExecStart=/home/pindou/backend/venv/bin/python3 -m uvicorn main:app --host 127.0.0.1 --port 8001
 Restart=always
 RestartSec=3
 

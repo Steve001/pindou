@@ -68,7 +68,7 @@
               <input type="range" min="0" max="100" step="1"
                 :value="store.mergeValue"
                 @input="store.mergeValue = parseInt($event.target.value); store.scheduleGenerate()" />
-              <p class="form-hint">数值越大相近颜色合并越大，默认30</p>
+              <p class="form-hint">数值越大相近颜色合并越大，默认0</p>
             </div>
 
             <!-- Size -->

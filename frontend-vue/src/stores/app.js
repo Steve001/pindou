@@ -50,7 +50,7 @@ export const useAppStore = defineStore('app', {
     transparentBg: false,
     pixelate: false,
 
-    mergeValue: 30,
+    mergeValue: 0,
     showCoords: true,
     highlightIndex: -1,
     replaceColors: {},
